@@ -26,15 +26,15 @@ import static org.testng.AssertJUnit.assertEquals;
  */
 public class RestUtil {
 
-
-    public static String path;
-    public final String QAUMSDOMAIN = "http://qa.goplus.in";
-    public final String DOCKERUMSDOMAIN = "http://dev.goplus.in";
-    public final String PRODUMSDOMAIN = "http://goplus.in";
-
-
+    // Different Content Types
     public final String jsonContentType = "application/json";
     public final String xmlContentType = "application/xml";
+
+    // Different response time variables
+    public final int TWO_SECONDS=2000;
+    public final int SIX_SECONDS=6000;
+    public final int TEN_SECONDS=10000;
+
 
     public static void setBaseURI(String URI) {
         baseURI = URI;
@@ -116,7 +116,7 @@ public class RestUtil {
 
 
     public static Properties loadPropertyFile() throws Exception {
-        FileInputStream fileInput = new FileInputStream(new File("/Users/navpreetsingh/IdeaProjects/RestAssured/src/test/java/Utils/Data.properties"));
+        FileInputStream fileInput = new FileInputStream(new File("/Users/navpreetsingh/IdeaProjects/RestApiAutomation/src/test/java/Utility/Data.properties"));
         Properties prop = new Properties();
         prop.load(fileInput);
         return prop;
@@ -166,21 +166,14 @@ public class RestUtil {
         System.out.println(cookie + " value = " + data.getValue());
     }
 
-
-
-    public static Response postRequestTemplate(String contentType,String apiBody,String apiEndpoint){
-        Response response = given()
+    public Response getRequestTemplate(Response response, String endPoint){
+        response = given()
                 .log().all()
-                .contentType(contentType)
-                .body(apiBody)
                 .when()
-                .post(apiEndpoint);
+                .get(endPoint);
         printResponseBody(response);
         return response;
+
     }
-
-
-
-
 
 }
