@@ -1,4 +1,4 @@
-package GetRequestTests;
+package ZipCodeApi_GetRequestTests;
 
 import Utility.RestUtil;
 import io.restassured.response.Response;
