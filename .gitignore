@@ -4,3 +4,4 @@ target/
 #Intellij
 *.iml
 .idea/workspace.xml
+*.class
