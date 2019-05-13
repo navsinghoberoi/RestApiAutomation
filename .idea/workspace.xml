@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39596d31-0cd7-4f0b-9879-3a302e9c5f35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequestTests/India_110058.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/Data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/Data.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="RestUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utility/RestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="170" column="14" lean-forward="true" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="28" />
+            <state relative-caret-position="106">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,46 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="India_110058.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/India_110058.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-              <folding>
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1190#1191#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="113">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultipleLocationsViaParametrisation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java">
+      <file leaf-file-name="WireMockSetup.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="110">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -76,8 +53,8 @@
       <file leaf-file-name="Data.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utility/Data.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="237">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -101,6 +78,9 @@
       <find>jsonsc</find>
       <find>six</find>
       <find>json</find>
+      <find>setup</find>
+      <find>.start()</find>
+      <find>wiremock</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,14 +91,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/GetRequestTests/PositiveScenarios.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema.json" />
         <option value="$PROJECT_DIR$/src/test/java/GetRequestTests/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utility/Data.properties" />
         <option value="$PROJECT_DIR$/src/test/java/GetRequestTests/India_110058.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utility/RestUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Utility/Data.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java" />
       </list>
     </option>
   </component>
@@ -188,7 +169,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ZipCodeApi_GetRequestTests" type="462c0819:PsiDirectoryNode" />
+              <item name="Utility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="email&#9;PSI&#9;JAVA://org.testng.reporters.EmailableReporter&#10;pom&#9;FILE&#9;file:///Users/navpreetsingh/IdeaProjects/RestApiAutomation/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value=".prop&#9;FILE&#9;file:///Users/navpreetsingh/IdeaProjects/RestApiAutomation/src/test/java/Utility/Data.properties&#10;pom&#9;FILE&#9;file:///Users/navpreetsingh/IdeaProjects/RestApiAutomation/pom.xml&#10;email&#9;PSI&#9;JAVA://org.testng.reporters.EmailableReporter" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.5091954" />
@@ -225,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MultipleLocationsViaParametrisation">
+  <component name="RunManager" selected="TestNG.WireMockSetup">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -335,6 +316,35 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="WireMockSetup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Utility" />
+      <option name="MAIN_CLASS_NAME" value="Utility.WireMockSetup" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -376,9 +386,11 @@
       <item itemvalue="TestNG.India_110058" />
       <item itemvalue="TestNG.India_110058.postBoardingApi" />
       <item itemvalue="TestNG.MultipleLocationsViaParametrisation" />
+      <item itemvalue="TestNG.WireMockSetup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WireMockSetup" />
         <item itemvalue="TestNG.MultipleLocationsViaParametrisation" />
         <item itemvalue="TestNG.India_110058" />
         <item itemvalue="TestNG.India_110058.postBoardingApi" />
@@ -399,18 +411,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2019.05.11 at 00h 50m 43s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="India_110058 - 2019.05.11 at 01h 05m 51s.xml">
-      <configuration name="India_110058" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="India_110058 - 2019.05.11 at 01h 08m 40s.xml">
-      <configuration name="India_110058" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="India_110058 - 2019.05.11 at 01h 17m 32s.xml">
-      <configuration name="India_110058" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="India_110058 - 2019.05.11 at 01h 19m 23s.xml">
       <configuration name="India_110058" configurationId="TestNG" />
     </history-entry>
@@ -429,6 +429,18 @@
     <history-entry file="MultipleLocationsViaParametrisation - 2019.05.11 at 12h 38m 08s.xml">
       <configuration name="MultipleLocationsViaParametrisation" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="WireMockSetup - 2019.05.13 at 10h 31m 04s.xml">
+      <configuration name="WireMockSetup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WireMockSetup - 2019.05.13 at 10h 33m 15s.xml">
+      <configuration name="WireMockSetup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WireMockSetup - 2019.05.13 at 10h 36m 31s.xml">
+      <configuration name="WireMockSetup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WireMockSetup - 2019.05.13 at 10h 40m 06s.xml">
+      <configuration name="WireMockSetup" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -442,12 +454,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39601138" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.477208" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4131054" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4131054" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,20 +504,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestResultsExported/Test Results - India_110058.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestResultsExported/Test Results - India_110058.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/reporters/EmailableReporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -657,9 +656,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -806,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GetRequestTests/India_110058.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_US_90210_Json_Schema.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -841,12 +830,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utility/RestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="170" column="14" lean-forward="true" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="28" />
+        <state relative-caret-position="106">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -870,29 +885,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utility/Data.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="237">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
