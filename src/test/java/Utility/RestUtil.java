@@ -31,9 +31,9 @@ public class RestUtil {
     public final String xmlContentType = "application/xml";
 
     // Different response time variables
-    public final int TWO_SECONDS=2000;
-    public final int SIX_SECONDS=6000;
-    public final int TEN_SECONDS=10000;
+    public final int TWO_SECONDS = 2000;
+    public final int SIX_SECONDS = 6000;
+    public final int TEN_SECONDS = 10000;
 
 
     public static void setBaseURI(String URI) {
@@ -166,7 +166,7 @@ public class RestUtil {
         System.out.println(cookie + " value = " + data.getValue());
     }
 
-    public Response getRequestTemplate(Response response, String endPoint){
+    public Response getRequestTemplate(Response response, String endPoint) {
         response = given()
                 .log().all()
                 .when()
