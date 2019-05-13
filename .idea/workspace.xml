@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39596d31-0cd7-4f0b-9879-3a302e9c5f35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequestTests/India_110058.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestResultsExported/Test Results - Mocked_India_110064.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_Mocked_India_110064_Json_Schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests/Mocked_India_110064.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/Data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/Data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utility/Data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utility/Data.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +22,11 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/src/test/TestResultsExported" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RestUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utility/RestUtil.java">
+      <file leaf-file-name="WireMockSetup.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="170" column="14" lean-forward="true" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="28" />
+            <state relative-caret-position="148">
+              <caret line="99" column="20" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,55 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="India_110058.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/India_110058.java">
+      <file leaf-file-name="Mocked_India_110064.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests/Mocked_India_110064.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-              <folding>
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1190#1191#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultipleLocationsViaParametrisation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="53">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1795#1796#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utility/Data.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -101,6 +71,20 @@
       <find>jsonsc</find>
       <find>six</find>
       <find>json</find>
+      <find>setup</find>
+      <find>.start()</find>
+      <find>wiremock</find>
+      <find>lombok</find>
+      <find>body</find>
+      <find>expectedPlaceName</find>
+      <find>String expectedPlaceName</find>
+      <find>validateplacename</find>
+      <find>placename</find>
+      <find>8099</find>
+      <find>endpoint</find>
+      <find>fetch</find>
+      <find>localhost:</find>
+      <find>post</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,14 +95,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/GetRequestTests/PositiveScenarios.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema.json" />
         <option value="$PROJECT_DIR$/src/test/java/GetRequestTests/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utility/Data.properties" />
         <option value="$PROJECT_DIR$/src/test/java/GetRequestTests/India_110058.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utility/RestUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ZipCode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utility/Address.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_Mocked_India_110064_Json_Schema.json" />
+        <option value="$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests/FirstPostTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests/Mocked_India_110064.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utility/Data.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java" />
       </list>
     </option>
   </component>
@@ -190,6 +180,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ZipCodeApi_GetRequestTests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RestApiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestApiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ZipCodeApi_PostRequestTests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -200,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="email&#9;PSI&#9;JAVA://org.testng.reporters.EmailableReporter&#10;pom&#9;FILE&#9;file:///Users/navpreetsingh/IdeaProjects/RestApiAutomation/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="data.&#9;FILE&#9;file:///Users/navpreetsingh/IdeaProjects/RestApiAutomation/src/test/java/Utility/Data.properties&#10;.prop&#9;FILE&#9;file:///Users/navpreetsingh/IdeaProjects/RestApiAutomation/src/test/java/Utility/Data.properties&#10;pom&#9;FILE&#9;file:///Users/navpreetsingh/IdeaProjects/RestApiAutomation/pom.xml&#10;email&#9;PSI&#9;JAVA://org.testng.reporters.EmailableReporter" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.5091954" />
@@ -225,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MultipleLocationsViaParametrisation">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -277,20 +275,49 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="India_110058.postBoardingApi" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Mocked_India_110064" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestApiAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GetRequestTests.*" />
+          <option name="PATTERN" value="ZipCodeApi_PostRequestTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="GetRequestTests" />
-      <option name="MAIN_CLASS_NAME" value="GetRequestTests.India_110058" />
-      <option name="METHOD_NAME" value="postBoardingApi" />
+      <option name="PACKAGE_NAME" value="ZipCodeApi_PostRequestTests" />
+      <option name="MAIN_CLASS_NAME" value="ZipCodeApi_PostRequestTests.Mocked_India_110064" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Mocked_India_110064.getMockedApiResponse" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ZipCodeApi_PostRequestTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ZipCodeApi_PostRequestTests" />
+      <option name="MAIN_CLASS_NAME" value="ZipCodeApi_PostRequestTests.Mocked_India_110064" />
+      <option name="METHOD_NAME" value="getMockedApiResponse" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -319,6 +346,35 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="ZipCodeApi_GetRequestTests" />
       <option name="MAIN_CLASS_NAME" value="ZipCodeApi_GetRequestTests.MultipleLocationsViaParametrisation" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="WireMockSetup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Utility" />
+      <option name="MAIN_CLASS_NAME" value="Utility.WireMockSetup" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -374,14 +430,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.India_110058" />
-      <item itemvalue="TestNG.India_110058.postBoardingApi" />
       <item itemvalue="TestNG.MultipleLocationsViaParametrisation" />
+      <item itemvalue="TestNG.WireMockSetup" />
+      <item itemvalue="TestNG.Mocked_India_110064" />
+      <item itemvalue="TestNG.Mocked_India_110064.getMockedApiResponse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Mocked_India_110064" />
+        <item itemvalue="TestNG.Mocked_India_110064.getMockedApiResponse" />
+        <item itemvalue="TestNG.WireMockSetup" />
         <item itemvalue="TestNG.MultipleLocationsViaParametrisation" />
         <item itemvalue="TestNG.India_110058" />
-        <item itemvalue="TestNG.India_110058.postBoardingApi" />
       </list>
     </recent_temporary>
   </component>
@@ -399,35 +459,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2019.05.11 at 00h 50m 43s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 11h 51m 11s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="India_110058 - 2019.05.11 at 01h 05m 51s.xml">
-      <configuration name="India_110058" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 12m 20s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="India_110058 - 2019.05.11 at 01h 08m 40s.xml">
-      <configuration name="India_110058" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 16m 09s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="India_110058 - 2019.05.11 at 01h 17m 32s.xml">
-      <configuration name="India_110058" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 18m 15s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="India_110058 - 2019.05.11 at 01h 19m 23s.xml">
-      <configuration name="India_110058" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 30m 41s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MultipleLocationsViaParametrisation - 2019.05.11 at 12h 29m 36s.xml">
-      <configuration name="MultipleLocationsViaParametrisation" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064_getMockedApiResponse - 2019.05.13 at 12h 31m 06s.xml">
+      <configuration name="Mocked_India_110064.getMockedApiResponse" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MultipleLocationsViaParametrisation - 2019.05.11 at 12h 33m 42s.xml">
-      <configuration name="MultipleLocationsViaParametrisation" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 31m 19s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MultipleLocationsViaParametrisation - 2019.05.11 at 12h 35m 03s.xml">
-      <configuration name="MultipleLocationsViaParametrisation" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 32m 44s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MultipleLocationsViaParametrisation - 2019.05.11 at 12h 37m 40s.xml">
-      <configuration name="MultipleLocationsViaParametrisation" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 40m 56s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MultipleLocationsViaParametrisation - 2019.05.11 at 12h 38m 08s.xml">
-      <configuration name="MultipleLocationsViaParametrisation" configurationId="TestNG" />
+    <history-entry file="Mocked_India_110064 - 2019.05.13 at 12h 41m 18s.xml">
+      <configuration name="Mocked_India_110064" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -442,12 +502,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39601138" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4131054" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46581197" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4131054" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -488,45 +548,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests/Mocked_India_110064.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>response.getBody().asString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestResultsExported/Test Results - India_110058.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/reporters/EmailableReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/Data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utility/RestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -657,9 +699,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_India_110058_Json_Schema.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -806,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GetRequestTests/India_110058.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_US_90210_Json_Schema.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -821,66 +853,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/US_90210.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/RestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="170" column="14" lean-forward="true" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/India_110058.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding>
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/Data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/MultipleLocationsViaParametrisation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="567">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#821#822#0" expanded="true" />
@@ -889,10 +879,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="155">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/RestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="67" column="82" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonSchemas/Zippo_Mocked_India_110064_Json_Schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/India_110058.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_GetRequestTests/US_90210.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/Data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tomakehurst/wiremock-standalone/2.12.0/wiremock-standalone-2.12.0.jar!/com/github/tomakehurst/wiremock/client/WireMock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+          <folding>
+            <element signature="e#11952#11953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZipCodeApi_PostRequestTests/Mocked_India_110064.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utility/WireMockSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="99" column="20" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
