@@ -2,10 +2,7 @@ package Utility;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static io.restassured.RestAssured.given;
@@ -50,7 +47,7 @@ public class WireMockSetup extends RestUtil {
     public Response fetchMockApiResponse(String endpoint, String responseBody) {
         wireMockServer = new WireMockServer(portNumber);
         wireMockServer.start();
-        setupStub(endpoint,responseBody);
+        setupStub(endpoint, responseBody);
         Response response = given().
                 log().all().
                 contentType("application/json").
@@ -60,16 +57,16 @@ public class WireMockSetup extends RestUtil {
     }
 
     // Method to deserialize api response
-    public Address fetchMockApiDeserializedResponse(String endpoint,String responseBody) {
+    public Address fetchMockApiDeserializedResponse(String endpoint, String responseBody) {
         wireMockServer = new WireMockServer(portNumber);
         wireMockServer.start();
-        setupStub(endpoint,responseBody);
+        setupStub(endpoint, responseBody);
         Address addressObject = given().
                 log().all().
                 contentType("application/json").
                 when().
                 post(localHost + portNumber + endpoint)
-                .as(Address.class);
+                .as(Address.class);      // actual deserialization occurs here
         return addressObject;
     }
 

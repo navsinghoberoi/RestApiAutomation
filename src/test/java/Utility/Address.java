@@ -7,6 +7,7 @@ import lombok.Data;
  * @project RestApiAutomation
  */
 
+// Lombok annotation to generate getters,setters,toString methods on code compilation
 @Data
 public class Address {
     private String postcode;

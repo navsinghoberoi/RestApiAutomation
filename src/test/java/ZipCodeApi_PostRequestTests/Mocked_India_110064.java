@@ -27,11 +27,11 @@ public class Mocked_India_110064 extends RestUtil {
     WireMockSetup wireMockSetup = new WireMockSetup();
 
 
-    @Test (priority = 0)
+    @Test(priority = 0)
     public void getMockedApiResponse() {
         response = wireMockSetup.fetchMockApiResponse(getValueFromPropertyFile("postEndPoint1"),
                 getValueFromPropertyFile("POST_API_RESPONSE_BODY1_ENDPOINT1"));
-        System.out.println("Mocked api response = " +response.getBody().asString());
+        System.out.println("Mocked api response = " + response.getBody().asString());
     }
 
     @Test(priority = 1)
