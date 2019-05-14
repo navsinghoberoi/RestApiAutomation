@@ -16,7 +16,7 @@ Clone the repository via ssh/http using URL -- https://github.com/navsinghoberoi
 Automated tests : To run the automated tests, follow the steps -
 
 Go to RestApiAutomation/src/test/java folder.                                                       
-To run the testcases, execute TestsNG.xml file.
+To run the testcases, execute TestNG.xml file.
 
 # Built With :
 Java -- Programming Language            
