@@ -32,7 +32,7 @@ public class MultipleLocationsViaParametrisation extends RestUtil {
     }
 
 
-    @Test(dataProvider = "data-provider")
+    @Test(dataProvider = "data-provider",priority = 18)
     public void requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName(String countryCode, String zipCode, String expectedPlaceName) {
 
         given()

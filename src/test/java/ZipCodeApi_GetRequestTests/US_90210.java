@@ -29,39 +29,39 @@ public class US_90210 extends RestUtil {
         setBaseURI(baseURI);
     }
 
-    @Test(priority = 0)
+    @Test(priority = 9)
     public void getApiResponse() {
         response = getRequestTemplate(response, endPoint);
     }
 
-    @Test(priority = 1)
+    @Test(priority = 10)
     public void validateApiStatusCode() {
         checkStatusCode(response);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 11)
     public void validateApiResponseTime() {
         checkResponseTime(response, TEN_SECONDS);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 12)
     public void validateCountry() {
         printValueOfKeyFromResponse(response, "country");
         checkValueFromResponse(response, "country", expectedCountryName);
     }
 
-    @Test(priority = 4)
+    @Test(priority = 13)
     public void validateContentTypeOfResponse() {
         response.then().assertThat().contentType(jsonContentType);
     }
 
-    @Test(priority = 5)
+    @Test(priority = 14)
     public void validateJsonSchema() {
         System.out.println("Performing json schema validation");
         response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_US_90210_JSON_SCHEMA_PATH")));
     }
 
-    @Test(priority = 6)
+    @Test(priority = 15)
     public void printHeadersAndCookiesData() {
         printResponseHeaders(response);
         fetchResponseHeaderValue(response, "Date");
@@ -69,13 +69,13 @@ public class US_90210 extends RestUtil {
     }
 
     // compute number of keys in response
-    @Test(priority = 7)
+    @Test(priority = 16)
     public void validateCountOfKeysInResponse() {
         int count = getKeysCountInResponse(response);
         Assert.assertEquals(count, expectedKeysCount);
     }
 
-    @Test(priority = 8)
+    @Test(priority = 17)
     public void validatePlaceNameInResponse() {
         response.
                 then()

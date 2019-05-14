@@ -3,8 +3,10 @@ package ZipCodeApi_PostRequestTests;
 
 import Utility.RestUtil;
 import Utility.WireMockSetup;
+import com.github.tomakehurst.wiremock.WireMockServer;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
@@ -25,57 +27,57 @@ public class Mocked_India_110064 extends RestUtil {
     String expectedPlaceName = getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_PLACENAME_RESPONSE");
 
     WireMockSetup wireMockSetup = new WireMockSetup();
+    WireMockServer wireMockServer;
 
-
-    @Test(priority = 0)
+    @Test(priority = 19)
     public void getMockedApiResponse() {
         response = wireMockSetup.fetchMockApiResponse(getValueFromPropertyFile("postEndPoint1"),
                 getValueFromPropertyFile("POST_API_RESPONSE_BODY1_ENDPOINT1"));
         System.out.println("Mocked api response = " + response.getBody().asString());
     }
 
-    @Test(priority = 1)
+    @Test(priority = 20)
     public void validateApiStatusCode() {
         checkStatusCode(response);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 21)
     public void validateApiResponseTime() {
         checkResponseTime(response, TWO_SECONDS);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 22)
     public void validateCountry() {
         printValueOfKeyFromResponse(response, "country");
         checkValueFromResponse(response, "country", expectedCountryName);
     }
 
-    @Test(priority = 4)
+    @Test(priority = 23)
     public void validateContentTypeOfResponse() {
         response.then().assertThat().contentType(jsonContentType);
     }
 
-    @Test(priority = 5)
+    @Test(priority = 24)
     public void validateJsonSchema() {
         System.out.println("Performing json schema validation");
         response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_JSON_SCHEMA_PATH")));
     }
 
-    @Test(priority = 6)
+    @Test(priority = 25)
     public void printHeadersAndCookiesData() {
         printResponseHeaders(response);
         fetchResponseHeaderValue(response, "Date");
         printResponseCookies(response);
     }
 
-    @Test(priority = 7)
+    @Test(priority = 26)
     public void validateCountOfKeysInResponse() {
         int count = getKeysCountInResponse(response);
         Assert.assertEquals(count, expectedKeysCount);
     }
 
 
-    @Test(priority = 8)
+    @Test(priority = 27)
     public void validatePlaceNameInResponse() {
         response.
                 then()
