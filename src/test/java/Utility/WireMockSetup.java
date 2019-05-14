@@ -18,13 +18,14 @@ public class WireMockSetup extends RestUtil {
 
 
     WireMockServer wireMockServer;
-    final static int portNumber = 8099;
+    final static int portNumber1 = 8089;
+    final static int portNumber2 = 8099;
     final String localHost = "http://localhost:";
 
 
 //    @BeforeClass
 //    public void setup() {
-//        wireMockServer = new WireMockServer(portNumber);
+//        wireMockServer = new WireMockServer(portNumber1);
 //        wireMockServer.start();
 //        setupStub();
 //    }
@@ -45,27 +46,27 @@ public class WireMockSetup extends RestUtil {
 
     // Method to be used in different classes
     public Response fetchMockApiResponse(String endpoint, String responseBody) {
-        wireMockServer = new WireMockServer(portNumber);
+        wireMockServer = new WireMockServer(portNumber1);
         wireMockServer.start();
         setupStub(endpoint, responseBody);
         Response response = given().
                 log().all().
                 contentType("application/json").
                 when().
-                post(localHost + portNumber + endpoint);
+                post(localHost + portNumber1 + endpoint);
         return response;
     }
 
     // Method to deserialize api response
     public Address fetchMockApiDeserializedResponse(String endpoint, String responseBody) {
-        wireMockServer = new WireMockServer(portNumber);
+        wireMockServer = new WireMockServer(portNumber2);
         wireMockServer.start();
         setupStub(endpoint, responseBody);
         Address addressObject = given().
                 log().all().
                 contentType("application/json").
                 when().
-                post(localHost + portNumber + endpoint)
+                post(localHost + portNumber2 + endpoint)
                 .as(Address.class);      // actual deserialization occurs here
         return addressObject;
     }
