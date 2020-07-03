@@ -1,5 +1,6 @@
 # RestApiAutomation
-This is a project to demonstrate rest api automation via using Rest-Assured library. It has basic get and post api tests. Wiremock is used to generate post api test. Also, Lombok is used to generate getters, setters and toString method without writing the boilerplate code.
+This project demonstrates api automation via Rest-Assured library + Allure Reporting. Wiremock is used to mocking api response. 
+Also, Lombok is used to remove need of writing the boilerplate code.
 
 # Getting Started :
 Below mentioned instructions will get you a copy of the project up and running on your local machine for testing purposes.
@@ -7,31 +8,40 @@ Below mentioned instructions will get you a copy of the project up and running o
 # Prerequisites :
 IntelliJ Idea                                                                                                                                                                                  
 Java 8                                                                                                                                                                  
-TestNG                                                                           
+TestNG                      
+Allure                                                     
 
 Please follow the below mentioned steps to get a working repo :                                                       
-Clone the repository via ssh/http using URL -- https://github.com/navsinghoberoi/RestApiAutomation
+Clone the repository via ssh/http using URL --> **https://github.com/navsinghoberoi/RestApiAutomation**
 
-# Running the tests :                                           
-Automated tests : To run the automated tests, follow the steps -
+# Running the tests :                                                                                             
+To run the testcases, execute following command :                                
+**mvn clean test -DsuiteXmlFile=TestNG.xml | tee src/test/java/TestLogs/logging.log | grep -A10 "DEBUG curl"**
 
-Go to RestApiAutomation/src/test/java folder.                                                       
-To run the testcases, execute TestNG.xml file.
+
+# Generating allure report :
+Run the following commands :
+
+**allure generate allure-results**                                                      
+**NOTE** : Copy the history folder from your previous allure-report folder inside your current allure-results folder in order to see History trend in the report.                                                           
+**allure serve allure-results**
 
 # Built With :
 Java -- Programming Language            
-Maven -- It is a build automation tool                    
-Git -- It is a distributed version-control system                               
-TestNG -- It is a testing framework                                      
-WireMock -- It is a simulator for HTTP-based APIs                                           
-Lombok -- It generates getter, setters method at compile time without having the need to write all boilerplate code
+Maven -- Build automation tool                    
+Git -- Distributed version-control system                               
+TestNG -- Testing framework                                      
+WireMock -- Library for mocking APIs                                           
+Lombok -- Library that generates getter, setters method at compile time without having the need to write all boilerplate code
+Allure -- Reporting                                             
+Curl-Logger -- Library used to log curl requests
 
 # Author :
 Navpreet Singh
 
 # Add test cases :
-Remember below mentioned points before creating new api tests -- 
-a) Adding GET method tests --                                                           
-To add tests, go to RestApiAutomation/src/test/java/Tests.ZipCodeApi_GetRequestTests folder and create a new file             
-b) Adding POST method tests --                                                              
-To add tests, go to RestApiAutomation/src/test/java/Tests.ZipCodeApi_PostRequestTests folder and create a new file
+Remember below mentioned points before creating new api tests --> 
+a) Add new GET method tests -->                                                                                                       
+To add tests, go to RestApiAutomation/src/test/java/Tests/ZipCodeApi_GetRequestTests folder and create a new file                                                
+b) Add new POST method tests -->                                                                                                        
+To add tests, go to RestApiAutomation/src/test/java/Tests/ZipCodeApi_PostRequestTests folder and create a new file                          
