@@ -4,6 +4,9 @@ package Tests.ZipCodeApi_PostRequestTests;
 import Base.RestUtil;
 import Utility.WireMockSetup;
 import com.github.tomakehurst.wiremock.WireMockServer;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -31,6 +34,8 @@ public class Mocked_India_110064 extends RestUtil {
     WireMockSetup wireMockSetup = new WireMockSetup();
     WireMockServer wireMockServer;
 
+    @Description("Hitting the api endpoint to fetch mocked api response")
+    @Severity(SeverityLevel.BLOCKER)
     @Test(priority = 19)
     public void getMockedApiResponse() {
         response = wireMockSetup.fetchMockApiResponse(getValueFromPropertyFile("postEndPoint1"),
@@ -38,27 +43,37 @@ public class Mocked_India_110064 extends RestUtil {
         logger.info("Mocked api response = " + response.getBody().asString());
     }
 
+    @Description("Validating api status code is 200")
+    @Severity(SeverityLevel.BLOCKER)
     @Test(priority = 20)
     public void validateApiStatusCode() {
         checkStatusCode(response);
     }
 
+    @Description("Validating api response time is within accepted limits")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 21)
     public void validateApiResponseTime() {
         checkResponseTime(response, TWO_SECONDS);
     }
 
+    @Description("Validating country fetched from api response")
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 22)
     public void validateCountry() {
         printValueOfKeyFromResponse(response, "country");
         checkValueFromResponse(response, "country", expectedCountryName);
     }
 
+    @Description("Validating content type of api response")
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 23)
     public void validateContentTypeOfResponse() {
         response.then().assertThat().contentType(jsonContentType);
     }
 
+    @Description("Validating json schema is as per expectations")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 24)
     public void validateJsonSchema() {
         logger.info("Performing json schema validation");
@@ -72,13 +87,16 @@ public class Mocked_India_110064 extends RestUtil {
         printResponseCookies(response);
     }
 
+    @Description("Validating count of keys fetched from api response")
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 26)
     public void validateCountOfKeysInResponse() {
         int count = getKeysCountInResponse(response);
         Assert.assertEquals(count, expectedKeysCount);
     }
 
-
+    @Description("Validating place name fetched from api response")
+    @Severity(SeverityLevel.MINOR)
     @Test(priority = 27)
     public void validatePlaceNameInResponse() {
         response.

@@ -5,6 +5,9 @@ import Base.RestUtil;
 import PojoClasses.Address;
 import Utility.WireMockSetup;
 import com.github.tomakehurst.wiremock.WireMockServer;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -25,6 +28,8 @@ public class Mocked_India_110018_Deserialize_Response extends RestUtil {
     WireMockServer wireMockServer;
 
     // Here response is being DESERIALIZED into object of the mentioned classname
+    @Description("Validating mocked api response")
+    @Severity(SeverityLevel.MINOR)
     @Test(priority = 28)
     public void getMockedApiResponse() {
         addressObject = wireMockSetup.fetchMockApiDeserializedResponse(getValueFromPropertyFile("postEndPoint2"),
@@ -33,6 +38,8 @@ public class Mocked_India_110018_Deserialize_Response extends RestUtil {
     }
 
 
+    @Description("Validating cityName before updating")
+    @Severity(SeverityLevel.MINOR)
     @Test(priority = 29)
     public void validateCityNameBeforeUpdating() {
         String actualCityName = addressObject.getCityName();
@@ -40,6 +47,8 @@ public class Mocked_India_110018_Deserialize_Response extends RestUtil {
         Assert.assertEquals(actualCityName, "New Delhi");
     }
 
+    @Description("Validating cityName after updating")
+    @Severity(SeverityLevel.MINOR)
     @Test(priority = 30)
     public void validateCityNameAfterUpdatingViaSetter() {
         addressObject.setCityName("New York");

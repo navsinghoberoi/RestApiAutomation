@@ -1,0 +1,331 @@
+[ {
+  "uid" : "f2a6b425d780d84e",
+  "name" : "getApiResponse",
+  "time" : {
+    "start" : 1593787611930,
+    "stop" : 1593787612590,
+    "duration" : 660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d983376ec836aaf1",
+  "name" : "validateJsonSchema",
+  "time" : {
+    "start" : 1593787615903,
+    "stop" : 1593787615919,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52bb98742582b7f4",
+  "name" : "printHeadersAndCookiesData",
+  "time" : {
+    "start" : 1593787615922,
+    "stop" : 1593787615926,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9a98cf30c8c5b7a",
+  "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+  "time" : {
+    "start" : 1593787614288,
+    "stop" : 1593787614970,
+    "duration" : 682
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfa0616e61dd3495",
+  "name" : "printHeadersAndCookiesData",
+  "time" : {
+    "start" : 1593787611890,
+    "stop" : 1593787611893,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f6985969636083b",
+  "name" : "validateApiResponseTime",
+  "time" : {
+    "start" : 1593787615872,
+    "stop" : 1593787615874,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5da766102c3bf33",
+  "name" : "validateCountOfKeysInResponse",
+  "time" : {
+    "start" : 1593787612672,
+    "stop" : 1593787612674,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80f557aded94e896",
+  "name" : "validateCountry",
+  "time" : {
+    "start" : 1593787611181,
+    "stop" : 1593787611509,
+    "duration" : 328
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce3eb9e563087776",
+  "name" : "validateApiResponseTime",
+  "time" : {
+    "start" : 1593787612602,
+    "stop" : 1593787612604,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4967ec73c362c63",
+  "name" : "validateContentTypeOfResponse",
+  "time" : {
+    "start" : 1593787612628,
+    "stop" : 1593787612628,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7847fb100828b565",
+  "name" : "getApiResponse",
+  "time" : {
+    "start" : 1593787609848,
+    "stop" : 1593787611086,
+    "duration" : 1238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76182cbf8b75b1de",
+  "name" : "validateJsonSchema",
+  "time" : {
+    "start" : 1593787611517,
+    "stop" : 1593787611887,
+    "duration" : 370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0138049edac6b7c",
+  "name" : "validateCountry",
+  "time" : {
+    "start" : 1593787615876,
+    "stop" : 1593787615897,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43cc15be31310d06",
+  "name" : "validatePlaceNameInResponse",
+  "time" : {
+    "start" : 1593787612677,
+    "stop" : 1593787612692,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bd2d16dbcd18770",
+  "name" : "validateContentTypeOfResponse",
+  "time" : {
+    "start" : 1593787611512,
+    "stop" : 1593787611515,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7550fd5575372dc2",
+  "name" : "validateCountry",
+  "time" : {
+    "start" : 1593787612607,
+    "stop" : 1593787612625,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa7b8931a028e9fc",
+  "name" : "validateCountOfKeysInResponse",
+  "time" : {
+    "start" : 1593787615929,
+    "stop" : 1593787615930,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72a3774845563fd9",
+  "name" : "getMockedApiResponse",
+  "time" : {
+    "start" : 1593787615945,
+    "stop" : 1593787616117,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23e9c68b29b6f47f",
+  "name" : "validateApiStatusCode",
+  "time" : {
+    "start" : 1593787612593,
+    "stop" : 1593787612599,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f607897dd658710f",
+  "name" : "validateJsonSchema",
+  "time" : {
+    "start" : 1593787612631,
+    "stop" : 1593787612658,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b45058f3b78a60a",
+  "name" : "validateApiResponseTime",
+  "time" : {
+    "start" : 1593787611154,
+    "stop" : 1593787611178,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4615ae0a7cb5fc17",
+  "name" : "validateCityNameBeforeUpdating",
+  "time" : {
+    "start" : 1593787616119,
+    "stop" : 1593787616120,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a66ff8c3df335943",
+  "name" : "validatePlaceNameInResponse",
+  "time" : {
+    "start" : 1593787615932,
+    "stop" : 1593787615942,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a63e3bed80aaff",
+  "name" : "validateApiStatusCode",
+  "time" : {
+    "start" : 1593787611149,
+    "stop" : 1593787611151,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c2d04973486b112",
+  "name" : "validateCityNameAfterUpdatingViaSetter",
+  "time" : {
+    "start" : 1593787616122,
+    "stop" : 1593787616122,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e46e976ea6c72b5a",
+  "name" : "validateContentTypeOfResponse",
+  "time" : {
+    "start" : 1593787615899,
+    "stop" : 1593787615901,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f836c4a76bd55927",
+  "name" : "validateNumberOfPlaceName",
+  "time" : {
+    "start" : 1593787611910,
+    "stop" : 1593787611927,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8de8719f74ad91f7",
+  "name" : "getMockedApiResponse",
+  "time" : {
+    "start" : 1593787614979,
+    "stop" : 1593787615866,
+    "duration" : 887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64a5779c66aff335",
+  "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+  "time" : {
+    "start" : 1593787612697,
+    "stop" : 1593787613299,
+    "duration" : 602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2681217739385616",
+  "name" : "printHeadersAndCookiesData",
+  "time" : {
+    "start" : 1593787612660,
+    "stop" : 1593787612662,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95010ef6455d382c",
+  "name" : "validateCountOfKeysInResponse",
+  "time" : {
+    "start" : 1593787611895,
+    "stop" : 1593787611908,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b83f073660da69f",
+  "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+  "time" : {
+    "start" : 1593787613303,
+    "stop" : 1593787614286,
+    "duration" : 983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28f98efdb29be650",
+  "name" : "validateApiStatusCode",
+  "time" : {
+    "start" : 1593787615868,
+    "stop" : 1593787615869,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

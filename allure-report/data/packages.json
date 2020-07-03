@@ -1,0 +1,466 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "ZipCodeApi_GetRequestTests",
+      "children" : [ {
+        "name" : "India_110058",
+        "children" : [ {
+          "name" : "getApiResponse",
+          "uid" : "7847fb100828b565",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787609848,
+            "stop" : 1593787611086,
+            "duration" : 1238
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateApiStatusCode",
+          "uid" : "7a63e3bed80aaff",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611149,
+            "stop" : 1593787611151,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateApiResponseTime",
+          "uid" : "9b45058f3b78a60a",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611154,
+            "stop" : 1593787611178,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCountry",
+          "uid" : "80f557aded94e896",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "failed",
+          "time" : {
+            "start" : 1593787611181,
+            "stop" : 1593787611509,
+            "duration" : 328
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateContentTypeOfResponse",
+          "uid" : "8bd2d16dbcd18770",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611512,
+            "stop" : 1593787611515,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateJsonSchema",
+          "uid" : "76182cbf8b75b1de",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611517,
+            "stop" : 1593787611887,
+            "duration" : 370
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "printHeadersAndCookiesData",
+          "uid" : "bfa0616e61dd3495",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611890,
+            "stop" : 1593787611893,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCountOfKeysInResponse",
+          "uid" : "95010ef6455d382c",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611895,
+            "stop" : 1593787611908,
+            "duration" : 13
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateNumberOfPlaceName",
+          "uid" : "f836c4a76bd55927",
+          "parentUid" : "b80128927c9ea30d494374bb50384108",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611910,
+            "stop" : 1593787611927,
+            "duration" : 17
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b80128927c9ea30d494374bb50384108"
+      }, {
+        "name" : "US_90210",
+        "children" : [ {
+          "name" : "getApiResponse",
+          "uid" : "f2a6b425d780d84e",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787611930,
+            "stop" : 1593787612590,
+            "duration" : 660
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateApiStatusCode",
+          "uid" : "23e9c68b29b6f47f",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612593,
+            "stop" : 1593787612599,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateApiResponseTime",
+          "uid" : "ce3eb9e563087776",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612602,
+            "stop" : 1593787612604,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCountry",
+          "uid" : "7550fd5575372dc2",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612607,
+            "stop" : 1593787612625,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateContentTypeOfResponse",
+          "uid" : "a4967ec73c362c63",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612628,
+            "stop" : 1593787612628,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateJsonSchema",
+          "uid" : "f607897dd658710f",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612631,
+            "stop" : 1593787612658,
+            "duration" : 27
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "printHeadersAndCookiesData",
+          "uid" : "2681217739385616",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612660,
+            "stop" : 1593787612662,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCountOfKeysInResponse",
+          "uid" : "f5da766102c3bf33",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612672,
+            "stop" : 1593787612674,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validatePlaceNameInResponse",
+          "uid" : "43cc15be31310d06",
+          "parentUid" : "4a7225d9fbcd1f016d988f093266d7ea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612677,
+            "stop" : 1593787612692,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4a7225d9fbcd1f016d988f093266d7ea"
+      }, {
+        "name" : "MultipleLocationsViaParametrisation",
+        "children" : [ {
+          "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+          "uid" : "64a5779c66aff335",
+          "parentUid" : "d710b1c1a806891d044e27d5d611e454",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787612697,
+            "stop" : 1593787613299,
+            "duration" : 602
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "in", "110058", "Janakpuri" ]
+        }, {
+          "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+          "uid" : "9b83f073660da69f",
+          "parentUid" : "d710b1c1a806891d044e27d5d611e454",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787613303,
+            "stop" : 1593787614286,
+            "duration" : 983
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "us", "12345", "Schenectady" ]
+        }, {
+          "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+          "uid" : "f9a98cf30c8c5b7a",
+          "parentUid" : "d710b1c1a806891d044e27d5d611e454",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787614288,
+            "stop" : 1593787614970,
+            "duration" : 682
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ca", "B2R", "Waverley" ]
+        } ],
+        "uid" : "d710b1c1a806891d044e27d5d611e454"
+      } ],
+      "uid" : "2be25c610d7e2f38bf16efb974b85a84"
+    }, {
+      "name" : "ZipCodeApi_PostRequestTests",
+      "children" : [ {
+        "name" : "Mocked_India_110064",
+        "children" : [ {
+          "name" : "getMockedApiResponse",
+          "uid" : "8de8719f74ad91f7",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787614979,
+            "stop" : 1593787615866,
+            "duration" : 887
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateApiStatusCode",
+          "uid" : "28f98efdb29be650",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615868,
+            "stop" : 1593787615869,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateApiResponseTime",
+          "uid" : "1f6985969636083b",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615872,
+            "stop" : 1593787615874,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCountry",
+          "uid" : "c0138049edac6b7c",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615876,
+            "stop" : 1593787615897,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateContentTypeOfResponse",
+          "uid" : "e46e976ea6c72b5a",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615899,
+            "stop" : 1593787615901,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateJsonSchema",
+          "uid" : "d983376ec836aaf1",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615903,
+            "stop" : 1593787615919,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "printHeadersAndCookiesData",
+          "uid" : "52bb98742582b7f4",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615922,
+            "stop" : 1593787615926,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCountOfKeysInResponse",
+          "uid" : "fa7b8931a028e9fc",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615929,
+            "stop" : 1593787615930,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validatePlaceNameInResponse",
+          "uid" : "a66ff8c3df335943",
+          "parentUid" : "d37b1a9166d11cdb1def616d4dc6b653",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615932,
+            "stop" : 1593787615942,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d37b1a9166d11cdb1def616d4dc6b653"
+      }, {
+        "name" : "Mocked_India_110018_Deserialize_Response",
+        "children" : [ {
+          "name" : "getMockedApiResponse",
+          "uid" : "72a3774845563fd9",
+          "parentUid" : "668870155e81ea1d9263b1d28674d12c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787615945,
+            "stop" : 1593787616117,
+            "duration" : 172
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCityNameBeforeUpdating",
+          "uid" : "4615ae0a7cb5fc17",
+          "parentUid" : "668870155e81ea1d9263b1d28674d12c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787616119,
+            "stop" : 1593787616120,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateCityNameAfterUpdatingViaSetter",
+          "uid" : "2c2d04973486b112",
+          "parentUid" : "668870155e81ea1d9263b1d28674d12c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593787616122,
+            "stop" : 1593787616122,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "668870155e81ea1d9263b1d28674d12c"
+      } ],
+      "uid" : "2aa7e01dbe4c101f7e2f9bfd49139746"
+    } ],
+    "uid" : "fc39173c9dc08e281c680147b63fcad9"
+  } ]
+}

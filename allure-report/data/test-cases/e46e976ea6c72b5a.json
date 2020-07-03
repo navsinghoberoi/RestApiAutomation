@@ -1,0 +1,198 @@
+{
+  "uid" : "e46e976ea6c72b5a",
+  "name" : "validateContentTypeOfResponse",
+  "fullName" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110064.validateContentTypeOfResponse",
+  "historyId" : "9f9db6b76651871bbfd50d6f29cc1749",
+  "time" : {
+    "start" : 1593787615899,
+    "stop" : 1593787615901,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1593787609503,
+      "stop" : 1593787609788,
+      "duration" : 285
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1593787609789,
+      "stop" : 1593787609789,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1593787609789,
+      "stop" : 1593787609789,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787616126,
+      "stop" : 1593787616127,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787616128,
+      "stop" : 1593787616129,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787616129,
+      "stop" : 1593787616129,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787616130,
+      "stop" : 1593787616130,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110064"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110064"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateContentTypeOfResponse"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestNG With Retry Listener"
+  }, {
+    "name" : "suite",
+    "value" : "Test cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110064"
+  }, {
+    "name" : "host",
+    "value" : "IT-C02SP37VG8WN.local"
+  }, {
+    "name" : "thread",
+    "value" : "58340@IT-C02SP37VG8WN.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "939475ca4863a756",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593787576307,
+        "stop" : 1593787576309,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d5321edd7b9630c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593787531675,
+        "stop" : 1593787531678,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "8ef1f56c82dc0db5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593787450011,
+        "stop" : 1593787450014,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e46e976ea6c72b5a.json",
+  "parameterValues" : [ ]
+}

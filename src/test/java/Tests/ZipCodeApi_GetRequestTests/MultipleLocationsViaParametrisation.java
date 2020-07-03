@@ -1,6 +1,9 @@
 package Tests.ZipCodeApi_GetRequestTests;
 
 import Base.RestUtil;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -16,7 +19,6 @@ public class MultipleLocationsViaParametrisation extends RestUtil {
 
     String baseURI = getValueFromPropertyFile("ZIPPO_API_BASEURL");
 
-
     @DataProvider(name = "data-provider")
     public static Object[][] zipCodesAndPlaces() {
         return new Object[][]{
@@ -31,7 +33,8 @@ public class MultipleLocationsViaParametrisation extends RestUtil {
         setBaseURI(baseURI);
     }
 
-
+    @Description("Validating place name fetched from api response")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(dataProvider = "data-provider",priority = 18)
     public void requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName(String countryCode, String zipCode, String expectedPlaceName) {
 

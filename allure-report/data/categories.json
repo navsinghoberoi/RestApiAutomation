@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nJSON path country doesn't match.\nExpected: Dubai\n  Actual: India\n",
+      "children" : [ {
+        "name" : "validateCountry",
+        "uid" : "80f557aded94e896",
+        "parentUid" : "f8b8258ab20cf97c908a06ecd51c3743",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593787611181,
+          "stop" : 1593787611509,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8b8258ab20cf97c908a06ecd51c3743"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
