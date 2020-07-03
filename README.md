@@ -11,8 +11,8 @@ Java 8
 TestNG                      
 Allure                                                     
 
-Please follow the below mentioned steps to get a working repo :                                                       
-Clone the repository via ssh/http using URL --> **https://github.com/navsinghoberoi/RestApiAutomation**
+Please clone the repo using below mentioned link :                                                       
+**https://github.com/navsinghoberoi/RestApiAutomation**
 
 # Running the tests :                                                                                             
 To run the testcases, execute following command :                                
@@ -22,19 +22,22 @@ To run the testcases, execute following command :
 # Generating allure report :
 Run the following commands :
 
-**allure generate allure-results**                                                      
+1. **allure generate allure-results**                                                      
 **NOTE** : Copy the history folder from your previous allure-report folder inside your current allure-results folder in order to see History trend in the report.                                                           
-**allure serve allure-results**
+
+2. **allure serve allure-results**
 
 # Built With :
-Java -- Programming Language            
-Maven -- Build automation tool                    
-Git -- Distributed version-control system                               
-TestNG -- Testing framework                                      
-WireMock -- Library for mocking APIs                                           
-Lombok -- Library that generates getter, setters method at compile time without having the need to write all boilerplate code
-Allure -- Reporting                                             
-Curl-Logger -- Library used to log curl requests
+Rest Assured                                
+Java                                  
+Maven                                       
+Git                                       
+TestNG                                        
+WireMock                                                
+Lombok                                            
+Allure                                            
+Log4j                                                     
+Curl-Logger                             
 
 # Author :
 Navpreet Singh
@@ -44,4 +47,11 @@ Remember below mentioned points before creating new api tests -->
 a) Add new GET method tests -->                                                                                                       
 To add tests, go to RestApiAutomation/src/test/java/Tests/ZipCodeApi_GetRequestTests folder and create a new file                                                
 b) Add new POST method tests -->                                                                                                        
-To add tests, go to RestApiAutomation/src/test/java/Tests/ZipCodeApi_PostRequestTests folder and create a new file                          
+To add tests, go to RestApiAutomation/src/test/java/Tests/ZipCodeApi_PostRequestTests folder and create a new file                      
+
+# Sample generated report :
+
+![allure_report_page1](https://user-images.githubusercontent.com/21955275/86487677-5baed400-bd7c-11ea-9f64-38a06dff807b.png)
+
+![allure_report_page2](https://user-images.githubusercontent.com/21955275/86487687-62d5e200-bd7c-11ea-930e-2ccbf76f8cc3.png)
+
