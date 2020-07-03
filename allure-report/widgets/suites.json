@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "bc2a2dadc0105550af09e99a23bd9a3c",
+    "name" : "TestNG With Retry Listener",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 32,
+      "unknown" : 0,
+      "total" : 33
+    }
+  } ]
+}

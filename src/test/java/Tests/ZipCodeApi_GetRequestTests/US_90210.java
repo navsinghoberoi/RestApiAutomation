@@ -1,6 +1,9 @@
 package Tests.ZipCodeApi_GetRequestTests;
 
 import Base.RestUtil;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -32,32 +35,45 @@ public class US_90210 extends RestUtil {
         setBaseURI(baseURI);
     }
 
+
+    @Description("Hitting the api endpoint to fetch response")
+    @Severity(SeverityLevel.BLOCKER)
     @Test(priority = 9)
     public void getApiResponse() {
         response = getRequestTemplate(endPoint);
     }
 
+    @Description("Validating api status code is 200")
+    @Severity(SeverityLevel.BLOCKER)
     @Test(priority = 10)
     public void validateApiStatusCode() {
         checkStatusCode(response);
     }
 
+    @Description("Validating api response time is within accepted limits")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 11)
     public void validateApiResponseTime() {
         checkResponseTime(response, TEN_SECONDS);
     }
 
+    @Description("Validating country fetched from api response")
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 12)
     public void validateCountry() {
         printValueOfKeyFromResponse(response, "country");
         checkValueFromResponse(response, "country", expectedCountryName);
     }
 
+    @Description("Validating content type of api response")
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 13)
     public void validateContentTypeOfResponse() {
         response.then().assertThat().contentType(jsonContentType);
     }
 
+    @Description("Validating json schema is as per expectations")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 14)
     public void validateJsonSchema() {
         logger.info("Performing json schema validation");
@@ -72,13 +88,16 @@ public class US_90210 extends RestUtil {
         printResponseCookies(response);
     }
 
-    // compute number of keys in response
+    @Description("Validating count of keys fetched from api response")
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 16)
     public void validateCountOfKeysInResponse() {
         int count = getKeysCountInResponse(response);
         Assert.assertEquals(count, expectedKeysCount);
     }
 
+    @Description("Validating place name fetched from api response")
+    @Severity(SeverityLevel.MINOR)
     @Test(priority = 17)
     public void validatePlaceNameInResponse() {
         response.

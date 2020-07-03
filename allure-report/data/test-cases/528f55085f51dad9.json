@@ -1,0 +1,172 @@
+{
+  "uid" : "528f55085f51dad9",
+  "name" : "validateCityNameAfterUpdatingViaSetter",
+  "fullName" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110018_Deserialize_Response.validateCityNameAfterUpdatingViaSetter",
+  "historyId" : "5cbac492d05c36c21c5e2c4d78282b89",
+  "time" : {
+    "start" : 1593787450216,
+    "stop" : 1593787450217,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1593787441857,
+      "stop" : 1593787442277,
+      "duration" : 420
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1593787442278,
+      "stop" : 1593787442278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1593787442278,
+      "stop" : 1593787442278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787450218,
+      "stop" : 1593787450219,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787450219,
+      "stop" : 1593787450219,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787450219,
+      "stop" : 1593787450219,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1593787450220,
+      "stop" : 1593787450220,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110018_Deserialize_Response"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110018_Deserialize_Response"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateCityNameAfterUpdatingViaSetter"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestNG With Retry Listener"
+  }, {
+    "name" : "suite",
+    "value" : "Test cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.ZipCodeApi_PostRequestTests.Mocked_India_110018_Deserialize_Response"
+  }, {
+    "name" : "host",
+    "value" : "IT-C02SP37VG8WN.local"
+  }, {
+    "name" : "thread",
+    "value" : "57936@IT-C02SP37VG8WN.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "528f55085f51dad9.json",
+  "parameterValues" : [ ]
+}

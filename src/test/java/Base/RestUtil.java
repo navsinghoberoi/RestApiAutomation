@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.dzieciou.testing.curl.CurlLoggingRestAssuredConfigFactory;
 import com.github.dzieciou.testing.curl.Options;
 import com.github.dzieciou.testing.curl.Platform;
+import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.Cookie;
@@ -42,7 +43,7 @@ public class RestUtil {
     public final int SIX_SECONDS = 6000;
     public final int TEN_SECONDS = 10000;
 
-
+    @Step("Setting the baseURI as {0}")
     public static void setBaseURI(String URI) {
         baseURI = URI;
     }
@@ -51,11 +52,13 @@ public class RestUtil {
         RestAssured.baseURI = null;
     }
 
+    @Step("Validating that response is within {1} millis")
     public static ValidatableResponse checkResponseTime(Response response, long timeInMillis) {
         logger.info("API response time = " + response.getTime() + " ms");
         return response.then().time(lessThan(timeInMillis));
     }
 
+    @Step("Validating the response status code to be equal to 200")
     public static void checkStatusCode(Response response) {
         logger.info("Status code of api response = " + response.getStatusCode());
         logger.info("Status Line of api response = " + response.getStatusLine());
@@ -83,12 +86,13 @@ public class RestUtil {
         System.out.println();
     }
 
-
+    @Step("Printing value of {0} key")
     public static void printValueOfKeyFromResponse(Response response, String key) {
         Object value = response.path(key);
         logger.info("Value of " + key + " key fetched from response body = " + value);
     }
 
+    @Step("Validating value of {0} key is equal to {1}")
     public static void checkValueFromResponse(Response response, String key, Object expectedValue) {
         response.then().assertThat().body(key, equalTo(expectedValue));
     }
@@ -129,6 +133,7 @@ public class RestUtil {
         return prop;
     }
 
+    @Step("Fetching the value of {0} key from properties file")
     public static String getValueFromPropertyFile(String key) {
         String fileName = null;
         try {
@@ -173,6 +178,7 @@ public class RestUtil {
         logger.info(cookie + " value = " + data.getValue());
     }
 
+    @Step("Hitting the GET request for endpoint -> {0}")
     public Response getRequestTemplate(String endPoint) {
         Options options = Options.builder().targetPlatform(Platform.UNIX).printMultiliner().useLongForm().build();
         RestAssuredConfig curlConfig = CurlLoggingRestAssuredConfigFactory.createConfig(options);

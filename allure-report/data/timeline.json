@@ -1,0 +1,1741 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "IT-C02SP37VG8WN.local",
+    "children" : [ {
+      "name" : "58089@IT-C02SP37VG8WN.local.main(1)",
+      "children" : [ {
+        "name" : "getApiResponse",
+        "uid" : "8bf8d78494a85de2",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787525675,
+          "stop" : 1593787527239,
+          "duration" : 1564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "b6012f995c698924",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531652,
+          "stop" : 1593787531654,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "aa18d46e5ba740d4",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787527321,
+          "stop" : 1593787527347,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "8b6292eee984d758",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531710,
+          "stop" : 1593787531718,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "b68dab9cf327a061",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528826,
+          "stop" : 1593787528840,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "d4e79ded266704a4",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787527996,
+          "stop" : 1593787527999,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "751506b4ebf44354",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787527315,
+          "stop" : 1593787527317,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getMockedApiResponse",
+        "uid" : "87f2b1f2953f8a74",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787530905,
+          "stop" : 1593787531646,
+          "duration" : 741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateNumberOfPlaceName",
+        "uid" : "86e6329235bdc0d6",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528013,
+          "stop" : 1593787528035,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "d00542db1bdbe3fa",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528797,
+          "stop" : 1593787528812,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "73fa84963aefb0e8",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787529646,
+          "stop" : 1593787530186,
+          "duration" : 540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "us", "12345", "Schenectady" ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "d03983ef3a7ea060",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787527646,
+          "stop" : 1593787527648,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "2b8beb9461591845",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787527349,
+          "stop" : 1593787527643,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "741be7777ac0b2f8",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531701,
+          "stop" : 1593787531705,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameAfterUpdatingViaSetter",
+        "uid" : "d0ca86d11c6d01a4",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531870,
+          "stop" : 1593787531871,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameBeforeUpdating",
+        "uid" : "55a31adf9b759208",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531867,
+          "stop" : 1593787531867,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "dd1b29ef93dd2005",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531706,
+          "stop" : 1593787531708,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "c787940149f61b2a",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528775,
+          "stop" : 1593787528776,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "db2fc2178d059dd5",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528795,
+          "stop" : 1593787528795,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "4684178076dc0183",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531682,
+          "stop" : 1593787531697,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "54e632115b7ff961",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787530189,
+          "stop" : 1593787530901,
+          "duration" : 712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ca", "B2R", "Waverley" ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "e8ba77c73365dc1e",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528822,
+          "stop" : 1593787528825,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "c983dbddcd120ca2",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531656,
+          "stop" : 1593787531673,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "94665c09835faaa1",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528003,
+          "stop" : 1593787528011,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "3075c72f3792b03b",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531648,
+          "stop" : 1593787531649,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "c789d6f645402d85",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787527650,
+          "stop" : 1593787527994,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getApiResponse",
+        "uid" : "328a801371ae9fac",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528037,
+          "stop" : 1593787528768,
+          "duration" : 731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "552ee748b2b37e02",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528778,
+          "stop" : 1593787528793,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "201901655d848c7c",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528844,
+          "stop" : 1593787529642,
+          "duration" : 798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "in", "110058", "Janakpuri" ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "fe20f141899375ae",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528814,
+          "stop" : 1593787528816,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "d5321edd7b9630c4",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531675,
+          "stop" : 1593787531678,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "f67f1134576a2d14",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787528771,
+          "stop" : 1593787528773,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getMockedApiResponse",
+        "uid" : "c000684817639b5",
+        "parentUid" : "f4e75f5c55147eb3a32477e69e9d21dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787531721,
+          "stop" : 1593787531864,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4e75f5c55147eb3a32477e69e9d21dd"
+    }, {
+      "name" : "58340@IT-C02SP37VG8WN.local.main(1)",
+      "children" : [ {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "9b83f073660da69f",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787613303,
+          "stop" : 1593787614286,
+          "duration" : 983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "us", "12345", "Schenectady" ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "1f6985969636083b",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615872,
+          "stop" : 1593787615874,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "52bb98742582b7f4",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615922,
+          "stop" : 1593787615926,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getApiResponse",
+        "uid" : "7847fb100828b565",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787609848,
+          "stop" : 1593787611086,
+          "duration" : 1238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "f607897dd658710f",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612631,
+          "stop" : 1593787612658,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "fa7b8931a028e9fc",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615929,
+          "stop" : 1593787615930,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "a4967ec73c362c63",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612628,
+          "stop" : 1593787612628,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getApiResponse",
+        "uid" : "f2a6b425d780d84e",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611930,
+          "stop" : 1593787612590,
+          "duration" : 660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "43cc15be31310d06",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612677,
+          "stop" : 1593787612692,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getMockedApiResponse",
+        "uid" : "72a3774845563fd9",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615945,
+          "stop" : 1593787616117,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "7550fd5575372dc2",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612607,
+          "stop" : 1593787612625,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "e46e976ea6c72b5a",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615899,
+          "stop" : 1593787615901,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "f5da766102c3bf33",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612672,
+          "stop" : 1593787612674,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "bfa0616e61dd3495",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611890,
+          "stop" : 1593787611893,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "9b45058f3b78a60a",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611154,
+          "stop" : 1593787611178,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "d983376ec836aaf1",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615903,
+          "stop" : 1593787615919,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameAfterUpdatingViaSetter",
+        "uid" : "2c2d04973486b112",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787616122,
+          "stop" : 1593787616122,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameBeforeUpdating",
+        "uid" : "4615ae0a7cb5fc17",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787616119,
+          "stop" : 1593787616120,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "7a63e3bed80aaff",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611149,
+          "stop" : 1593787611151,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "ce3eb9e563087776",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612602,
+          "stop" : 1593787612604,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "f9a98cf30c8c5b7a",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787614288,
+          "stop" : 1593787614970,
+          "duration" : 682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ca", "B2R", "Waverley" ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "95010ef6455d382c",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611895,
+          "stop" : 1593787611908,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "8bd2d16dbcd18770",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611512,
+          "stop" : 1593787611515,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "76182cbf8b75b1de",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611517,
+          "stop" : 1593787611887,
+          "duration" : 370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "64a5779c66aff335",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612697,
+          "stop" : 1593787613299,
+          "duration" : 602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "in", "110058", "Janakpuri" ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "23e9c68b29b6f47f",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612593,
+          "stop" : 1593787612599,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "c0138049edac6b7c",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615876,
+          "stop" : 1593787615897,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getMockedApiResponse",
+        "uid" : "8de8719f74ad91f7",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787614979,
+          "stop" : 1593787615866,
+          "duration" : 887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateNumberOfPlaceName",
+        "uid" : "f836c4a76bd55927",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787611910,
+          "stop" : 1593787611927,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "2681217739385616",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787612660,
+          "stop" : 1593787612662,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "a66ff8c3df335943",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615932,
+          "stop" : 1593787615942,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "28f98efdb29be650",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787615868,
+          "stop" : 1593787615869,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "80f557aded94e896",
+        "parentUid" : "c645bd610b3c9f3f4bb35ae07b9b6245",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593787611181,
+          "stop" : 1593787611509,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c645bd610b3c9f3f4bb35ae07b9b6245"
+    }, {
+      "name" : "58213@IT-C02SP37VG8WN.local.main(1)",
+      "children" : [ {
+        "name" : "getMockedApiResponse",
+        "uid" : "37307253761335a0",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576350,
+          "stop" : 1593787576485,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "e4cf59bdefa00946",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572816,
+          "stop" : 1593787572816,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "6681eef53a9ac33f",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576338,
+          "stop" : 1593787576347,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "4010229dd315181d",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787571288,
+          "stop" : 1593787571290,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getApiResponse",
+        "uid" : "7ccc48513ad55839",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787569990,
+          "stop" : 1593787571227,
+          "duration" : 1237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameAfterUpdatingViaSetter",
+        "uid" : "cdac2db35ffbde3c",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576491,
+          "stop" : 1593787576492,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "37f8b441d402b618",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576333,
+          "stop" : 1593787576334,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "939475ca4863a756",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576307,
+          "stop" : 1593787576309,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "266ed6724b8655a8",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572820,
+          "stop" : 1593787572838,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "a34932c668bdf289",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787573474,
+          "stop" : 1593787574659,
+          "duration" : 1185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "us", "12345", "Schenectady" ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "f3c6a7904c2283c5",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576310,
+          "stop" : 1593787576325,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "39e5fd25e3f65b51",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787571965,
+          "stop" : 1593787571967,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "41986184ff3b9200",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576287,
+          "stop" : 1593787576288,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "2e25bd0d632b770e",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572850,
+          "stop" : 1593787572852,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "9d7c684f78dd48d6",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593787571320,
+          "stop" : 1593787571626,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getApiResponse",
+        "uid" : "60a7c911cbe12f14",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572003,
+          "stop" : 1593787572788,
+          "duration" : 785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "7c9a5ceaeb082659",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572795,
+          "stop" : 1593787572797,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "d006e71957c0251f",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787571293,
+          "stop" : 1593787571318,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "a7a1b14b78eafbb3",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572872,
+          "stop" : 1593787573471,
+          "duration" : 599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "in", "110058", "Janakpuri" ]
+      }, {
+        "name" : "validateNumberOfPlaceName",
+        "uid" : "af298d9fa7bcfb27",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787571979,
+          "stop" : 1593787572000,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameBeforeUpdating",
+        "uid" : "1f5d81578a204647",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576488,
+          "stop" : 1593787576488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "566107bf544efdad",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572790,
+          "stop" : 1593787572792,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "2dba82dfd28f50db",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787571970,
+          "stop" : 1593787571977,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "495d56f8a164192d",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572854,
+          "stop" : 1593787572867,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "2436e47b96f38f84",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572799,
+          "stop" : 1593787572813,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "199ecd11a70d806c",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787574661,
+          "stop" : 1593787575480,
+          "duration" : 819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ca", "B2R", "Waverley" ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "90a2362e022f69aa",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787571630,
+          "stop" : 1593787571632,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getMockedApiResponse",
+        "uid" : "6941317cde4098b8",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787575485,
+          "stop" : 1593787576285,
+          "duration" : 800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "8ae6ba0a4c2ac293",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787571634,
+          "stop" : 1593787571962,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "d6bc04583b2aef11",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787572841,
+          "stop" : 1593787572843,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "d77477738b51c89b",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576293,
+          "stop" : 1593787576305,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "a61d03289de6597d",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576327,
+          "stop" : 1593787576331,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "6e1823b6380099c4",
+        "parentUid" : "49bfd563da2dbf6e8549d3a78e71e0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787576290,
+          "stop" : 1593787576291,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49bfd563da2dbf6e8549d3a78e71e0f8"
+    }, {
+      "name" : "57936@IT-C02SP37VG8WN.local.main(1)",
+      "children" : [ {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "9fc49adbdcf20b1c",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446400,
+          "stop" : 1593787446422,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "780f44796c482fe2",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450045,
+          "stop" : 1593787450047,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getApiResponse",
+        "uid" : "94ce5f3e49dee451",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787445866,
+          "stop" : 1593787446263,
+          "duration" : 397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "171e079afdae2667",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787449986,
+          "stop" : 1593787449989,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "1086692f10de4e90",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446320,
+          "stop" : 1593787446321,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "a91525d82deb99a",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446272,
+          "stop" : 1593787446276,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "6fdd624bc69926dc",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787449992,
+          "stop" : 1593787450009,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "a18e577d008268a3",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446267,
+          "stop" : 1593787446269,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "f8a0d3321879a0f",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787449982,
+          "stop" : 1593787449983,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "d326993062b15bef",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446534,
+          "stop" : 1593787447091,
+          "duration" : 557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "in", "110058", "Janakpuri" ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "f77d68c6ecd0da27",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787447705,
+          "stop" : 1593787448216,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ca", "B2R", "Waverley" ]
+      }, {
+        "name" : "validateCountOfKeysInResponse",
+        "uid" : "55caa5357594bbf3",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787445833,
+          "stop" : 1593787445842,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "a925145bbf4a2990",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787445392,
+          "stop" : 1593787445821,
+          "duration" : 429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "1e64965310b8de9e",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446377,
+          "stop" : 1593787446381,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "4b6b1c89e3897614",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787444669,
+          "stop" : 1593787445385,
+          "duration" : 716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiStatusCode",
+        "uid" : "94653ce269857533",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787444576,
+          "stop" : 1593787444582,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "4f6252bf149db0b3",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450050,
+          "stop" : 1593787450057,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateNumberOfPlaceName",
+        "uid" : "d9f9c38079023612",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787445846,
+          "stop" : 1593787445864,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "7edfd7f4d44c9d1e",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446332,
+          "stop" : 1593787446371,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getMockedApiResponse",
+        "uid" : "d46f7414a19ca24a",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450060,
+          "stop" : 1593787450212,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "2ea85acf5064040b",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450038,
+          "stop" : 1593787450043,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameBeforeUpdating",
+        "uid" : "8c0347b271116e76",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450214,
+          "stop" : 1593787450214,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateApiResponseTime",
+        "uid" : "439717fdb222b25",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787444594,
+          "stop" : 1593787444664,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateJsonSchema",
+        "uid" : "652018c40d1f34b2",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450016,
+          "stop" : 1593787450035,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "printHeadersAndCookiesData",
+        "uid" : "26b90ab79b3b4a88",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787445824,
+          "stop" : 1593787445829,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "a09c898b73a4163a",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787445388,
+          "stop" : 1593787445389,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName",
+        "uid" : "4406479e62268888",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787447094,
+          "stop" : 1593787447701,
+          "duration" : 607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "us", "12345", "Schenectady" ]
+      }, {
+        "name" : "getApiResponse",
+        "uid" : "99362f0c68fa1d55",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787442343,
+          "stop" : 1593787444421,
+          "duration" : 2078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCountry",
+        "uid" : "7ecc476ec789648",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446279,
+          "stop" : 1593787446317,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateContentTypeOfResponse",
+        "uid" : "8ef1f56c82dc0db5",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450011,
+          "stop" : 1593787450014,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validatePlaceNameInResponse",
+        "uid" : "95e6a51688e968a0",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787446426,
+          "stop" : 1593787446520,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getMockedApiResponse",
+        "uid" : "1b7b665e90a895ac",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787448222,
+          "stop" : 1593787449979,
+          "duration" : 1757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validateCityNameAfterUpdatingViaSetter",
+        "uid" : "528f55085f51dad9",
+        "parentUid" : "29701261628227f0beb4a8cf76ff7fbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593787450216,
+          "stop" : 1593787450217,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29701261628227f0beb4a8cf76ff7fbd"
+    } ],
+    "uid" : "106a9c9c69cad60538f826340e72025e"
+  } ]
+}
