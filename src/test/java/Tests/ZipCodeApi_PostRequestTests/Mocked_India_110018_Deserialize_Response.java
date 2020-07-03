@@ -5,6 +5,7 @@ import Base.RestUtil;
 import PojoClasses.Address;
 import Utility.WireMockSetup;
 import com.github.tomakehurst.wiremock.WireMockServer;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -17,6 +18,7 @@ import org.testng.annotations.Test;
 
 public class Mocked_India_110018_Deserialize_Response extends RestUtil {
 
+    static Logger logger = Logger.getLogger(Mocked_India_110018_Deserialize_Response.class);
     public Address addressObject;
 
     WireMockSetup wireMockSetup = new WireMockSetup();
@@ -27,14 +29,14 @@ public class Mocked_India_110018_Deserialize_Response extends RestUtil {
     public void getMockedApiResponse() {
         addressObject = wireMockSetup.fetchMockApiDeserializedResponse(getValueFromPropertyFile("postEndPoint2"),
                 getValueFromPropertyFile("POST_API_RESPONSE_BODY2_ENDPOINT1"));
-        System.out.println("Mocked api response after deserializing into POJO = " + addressObject.toString());
+       logger.info("Mocked api response after deserializing into POJO = " + addressObject.toString());
     }
 
 
     @Test(priority = 29)
     public void validateCityNameBeforeUpdating() {
         String actualCityName = addressObject.getCityName();
-        System.out.println("City name = " + actualCityName);
+        logger.info("City name = " + actualCityName);
         Assert.assertEquals(actualCityName, "New Delhi");
     }
 
@@ -42,13 +44,13 @@ public class Mocked_India_110018_Deserialize_Response extends RestUtil {
     public void validateCityNameAfterUpdatingViaSetter() {
         addressObject.setCityName("New York");
         String actualCityName = addressObject.getCityName();
-        System.out.println("New city name after updating via setter = " + actualCityName);
+        logger.info("New city name after updating via setter = " + actualCityName);
         Assert.assertEquals(actualCityName, "New York");
     }
 
     @AfterTest
     public void afterTests() {
-        System.out.println("All tests have been run");
+        logger.info("All tests have been run");
         resetBaseURI();
     }
 

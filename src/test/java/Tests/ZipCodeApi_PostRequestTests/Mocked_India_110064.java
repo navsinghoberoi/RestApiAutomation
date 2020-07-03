@@ -5,6 +5,7 @@ import Base.RestUtil;
 import Utility.WireMockSetup;
 import com.github.tomakehurst.wiremock.WireMockServer;
 import io.restassured.response.Response;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -20,6 +21,8 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Mocked_India_110064 extends RestUtil {
 
+    static Logger logger = Logger.getLogger(Mocked_India_110064.class);
+
     private static Response response;
     String expectedCountryName = getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_COUNTRY");
     int expectedKeysCount = Integer.parseInt(getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_KEYS_COUNT_IN_RESPONSE"));
@@ -32,7 +35,7 @@ public class Mocked_India_110064 extends RestUtil {
     public void getMockedApiResponse() {
         response = wireMockSetup.fetchMockApiResponse(getValueFromPropertyFile("postEndPoint1"),
                 getValueFromPropertyFile("POST_API_RESPONSE_BODY1_ENDPOINT1"));
-        System.out.println("Mocked api response = " + response.getBody().asString());
+        logger.info("Mocked api response = " + response.getBody().asString());
     }
 
     @Test(priority = 20)
@@ -58,7 +61,7 @@ public class Mocked_India_110064 extends RestUtil {
 
     @Test(priority = 24)
     public void validateJsonSchema() {
-        System.out.println("Performing json schema validation");
+        logger.info("Performing json schema validation");
         response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_JSON_SCHEMA_PATH")));
     }
 
@@ -87,7 +90,7 @@ public class Mocked_India_110064 extends RestUtil {
 
     @AfterTest
     public void afterTests() {
-        System.out.println("All tests have been run");
+        logger.info("All tests have been run");
         resetBaseURI();
     }
 
