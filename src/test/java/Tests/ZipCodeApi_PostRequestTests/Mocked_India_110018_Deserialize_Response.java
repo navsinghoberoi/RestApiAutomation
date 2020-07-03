@@ -1,11 +1,11 @@
-package ZipCodeApi_PostRequestTests;
+package Tests.ZipCodeApi_PostRequestTests;
 
-import Utility.Address;
-import Utility.RestUtil;
+import Base.RestUtil;
+
+import PojoClasses.Address;
 import Utility.WireMockSetup;
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 

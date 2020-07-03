@@ -1,26 +1,27 @@
-package ZipCodeApi_GetRequestTests;
+package Tests.ZipCodeApi_GetRequestTests;
 
-import Utility.RestUtil;
+import Base.RestUtil;
 import io.restassured.response.Response;
 import org.testng.Assert;
-import org.testng.annotations.*;
-
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
-import static org.hamcrest.Matchers.hasSize;
+import static org.hamcrest.Matchers.equalTo;
 
 /**
- * @author navpreetsingh on 10/05/19
+ * @author navpreetsingh on 11/05/19
  * @project RestApiAutomation
  */
+public class US_90210 extends RestUtil {
 
-public class India_110058 extends RestUtil {
 
     private static Response response;
-    String endPoint = getValueFromPropertyFile("ZIPPO_INDIA_58_ENDPOINT");
+    String endPoint = getValueFromPropertyFile("ZIPPO_US_90210_ENDPOINT");
     String baseURI = getValueFromPropertyFile("ZIPPO_API_BASEURL");
-    String expectedCountryName = getValueFromPropertyFile("ZIPPO_INDIA_58_COUNTRY");
-    int expectedKeysCount = Integer.parseInt(getValueFromPropertyFile("ZIPPO_INDIA_58_KEYS_COUNT_IN_RESPONSE"));
-    int expectedPlaceNameCount = Integer.parseInt(getValueFromPropertyFile("ZIPPO_INDIA_58_PLACENAME_COUNT_IN_RESPONSE"));
+    String expectedCountryName = getValueFromPropertyFile("ZIPPO_US_90210_COUNTRY");
+    int expectedKeysCount = Integer.parseInt(getValueFromPropertyFile("ZIPPO_US_90210_KEYS_COUNT_IN_RESPONSE"));
+    String expectedPlaceName = getValueFromPropertyFile("ZIPPO_US_90210_PLACENAME_RESPONSE");
 
 
     @BeforeTest
@@ -28,39 +29,39 @@ public class India_110058 extends RestUtil {
         setBaseURI(baseURI);
     }
 
-    @Test(priority = 0)
+    @Test(priority = 9)
     public void getApiResponse() {
-      response =  getRequestTemplate(response,endPoint);
+        response = getRequestTemplate(response, endPoint);
     }
 
-    @Test(priority = 1)
+    @Test(priority = 10)
     public void validateApiStatusCode() {
         checkStatusCode(response);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 11)
     public void validateApiResponseTime() {
         checkResponseTime(response, TEN_SECONDS);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 12)
     public void validateCountry() {
         printValueOfKeyFromResponse(response, "country");
         checkValueFromResponse(response, "country", expectedCountryName);
     }
 
-    @Test(priority = 4)
+    @Test(priority = 13)
     public void validateContentTypeOfResponse() {
         response.then().assertThat().contentType(jsonContentType);
     }
 
-    @Test(priority = 5)
+    @Test(priority = 14)
     public void validateJsonSchema() {
         System.out.println("Performing json schema validation");
-        response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_INDIA_58_JSON_SCHEMA_PATH")));
+        response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_US_90210_JSON_SCHEMA_PATH")));
     }
 
-    @Test(priority = 6)
+    @Test(priority = 15)
     public void printHeadersAndCookiesData() {
         printResponseHeaders(response);
         fetchResponseHeaderValue(response, "Date");
@@ -68,19 +69,18 @@ public class India_110058 extends RestUtil {
     }
 
     // compute number of keys in response
-    @Test(priority = 7)
+    @Test(priority = 16)
     public void validateCountOfKeysInResponse() {
         int count = getKeysCountInResponse(response);
         Assert.assertEquals(count, expectedKeysCount);
     }
 
-
-    @Test(priority = 8)
-    public void validateNumberOfPlaceName() {
+    @Test(priority = 17)
+    public void validatePlaceNameInResponse() {
         response.
                 then()
                 .assertThat()
-                .body("places.'place name'", hasSize(expectedPlaceNameCount));
+                .body("places[0].'place name'", equalTo(expectedPlaceName));
     }
 
 

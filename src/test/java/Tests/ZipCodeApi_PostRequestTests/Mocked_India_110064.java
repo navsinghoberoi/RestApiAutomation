@@ -1,81 +1,82 @@
-package ZipCodeApi_GetRequestTests;
+package Tests.ZipCodeApi_PostRequestTests;
 
-import Utility.RestUtil;
+
+import Base.RestUtil;
+import Utility.WireMockSetup;
+import com.github.tomakehurst.wiremock.WireMockServer;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
- * @author navpreetsingh on 11/05/19
+ * @author navpreetsingh on 13/05/19
  * @project RestApiAutomation
  */
-public class US_90210 extends RestUtil {
 
+
+public class Mocked_India_110064 extends RestUtil {
 
     private static Response response;
-    String endPoint = getValueFromPropertyFile("ZIPPO_US_90210_ENDPOINT");
-    String baseURI = getValueFromPropertyFile("ZIPPO_API_BASEURL");
-    String expectedCountryName = getValueFromPropertyFile("ZIPPO_US_90210_COUNTRY");
-    int expectedKeysCount = Integer.parseInt(getValueFromPropertyFile("ZIPPO_US_90210_KEYS_COUNT_IN_RESPONSE"));
-    String expectedPlaceName = getValueFromPropertyFile("ZIPPO_US_90210_PLACENAME_RESPONSE");
+    String expectedCountryName = getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_COUNTRY");
+    int expectedKeysCount = Integer.parseInt(getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_KEYS_COUNT_IN_RESPONSE"));
+    String expectedPlaceName = getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_PLACENAME_RESPONSE");
 
+    WireMockSetup wireMockSetup = new WireMockSetup();
+    WireMockServer wireMockServer;
 
-    @BeforeTest
-    public void setup() {
-        setBaseURI(baseURI);
+    @Test(priority = 19)
+    public void getMockedApiResponse() {
+        response = wireMockSetup.fetchMockApiResponse(getValueFromPropertyFile("postEndPoint1"),
+                getValueFromPropertyFile("POST_API_RESPONSE_BODY1_ENDPOINT1"));
+        System.out.println("Mocked api response = " + response.getBody().asString());
     }
 
-    @Test(priority = 9)
-    public void getApiResponse() {
-        response = getRequestTemplate(response, endPoint);
-    }
-
-    @Test(priority = 10)
+    @Test(priority = 20)
     public void validateApiStatusCode() {
         checkStatusCode(response);
     }
 
-    @Test(priority = 11)
+    @Test(priority = 21)
     public void validateApiResponseTime() {
-        checkResponseTime(response, TEN_SECONDS);
+        checkResponseTime(response, TWO_SECONDS);
     }
 
-    @Test(priority = 12)
+    @Test(priority = 22)
     public void validateCountry() {
         printValueOfKeyFromResponse(response, "country");
         checkValueFromResponse(response, "country", expectedCountryName);
     }
 
-    @Test(priority = 13)
+    @Test(priority = 23)
     public void validateContentTypeOfResponse() {
         response.then().assertThat().contentType(jsonContentType);
     }
 
-    @Test(priority = 14)
+    @Test(priority = 24)
     public void validateJsonSchema() {
         System.out.println("Performing json schema validation");
-        response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_US_90210_JSON_SCHEMA_PATH")));
+        response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_MOCK_INDIA_110064_JSON_SCHEMA_PATH")));
     }
 
-    @Test(priority = 15)
+    @Test(priority = 25)
     public void printHeadersAndCookiesData() {
         printResponseHeaders(response);
         fetchResponseHeaderValue(response, "Date");
         printResponseCookies(response);
     }
 
-    // compute number of keys in response
-    @Test(priority = 16)
+    @Test(priority = 26)
     public void validateCountOfKeysInResponse() {
         int count = getKeysCountInResponse(response);
         Assert.assertEquals(count, expectedKeysCount);
     }
 
-    @Test(priority = 17)
+
+    @Test(priority = 27)
     public void validatePlaceNameInResponse() {
         response.
                 then()
@@ -89,6 +90,5 @@ public class US_90210 extends RestUtil {
         System.out.println("All tests have been run");
         resetBaseURI();
     }
-
 
 }

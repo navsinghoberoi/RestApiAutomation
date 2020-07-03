@@ -1,4 +1,4 @@
-package Utility;
+package Base;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -116,7 +116,7 @@ public class RestUtil {
 
 
     public static Properties loadPropertyFile() throws Exception {
-        FileInputStream fileInput = new FileInputStream(new File("/Users/navpreetsingh/IdeaProjects/RestApiAutomation/src/test/java/Utility/Data.properties"));
+        FileInputStream fileInput = new FileInputStream(new File("/Users/nasingh/IdeaProjects/RestApiAutomation/src/test/java/Config/Data.properties"));
         Properties prop = new Properties();
         prop.load(fileInput);
         return prop;
