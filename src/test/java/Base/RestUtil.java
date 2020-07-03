@@ -1,13 +1,18 @@
-package Utility;
+package Base;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.dzieciou.testing.curl.CurlLoggingRestAssuredConfigFactory;
+import com.github.dzieciou.testing.curl.Options;
+import com.github.dzieciou.testing.curl.Platform;
 import io.restassured.RestAssured;
+import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.Cookie;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
+import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,6 +30,8 @@ import static org.testng.AssertJUnit.assertEquals;
  * @project RestApiAutomation
  */
 public class RestUtil {
+
+    static Logger logger = Logger.getLogger(RestUtil.class);
 
     // Different Content Types
     public final String jsonContentType = "application/json";
@@ -45,41 +52,41 @@ public class RestUtil {
     }
 
     public static ValidatableResponse checkResponseTime(Response response, long timeInMillis) {
-        System.out.println("API response time = " + response.getTime() + " ms");
+        logger.info("API response time = " + response.getTime() + " ms");
         return response.then().time(lessThan(timeInMillis));
     }
 
     public static void checkStatusCode(Response response) {
-        System.out.println("Status code of api response = " + response.getStatusCode());
-        System.out.println("Status Line of api response = " + response.getStatusLine());
+        logger.info("Status code of api response = " + response.getStatusCode());
+        logger.info("Status Line of api response = " + response.getStatusLine());
         assertEquals("Status Code Check Failed", 200, response.getStatusCode());
     }
 
     // for checking specific status code other than 200
     public static void checkStatusCode(Response response, int expectedStatusCode) {
-        System.out.println("Status code of api response = " + response.getStatusCode());
-        System.out.println("Status Line of api response = " + response.getStatusLine());
+        logger.info("Status code of api response = " + response.getStatusCode());
+        logger.info("Status Line of api response = " + response.getStatusLine());
         assertEquals("Status Code Check Failed", expectedStatusCode, response.getStatusCode());
     }
 
 
     public static void printResponseBody(Response response) {
-        System.out.println("**************************************************");
-        System.out.println("API response body = " + response.getBody().asString());
-        System.out.println("**************************************************");
+        logger.info("**************************************************");
+        logger.info("API response body = " + response.getBody().asString());
+        logger.info("**************************************************");
     }
 
 
     public static void printLineAfterTestMethod() {
         System.out.println();
-        System.out.println("-------------END OF TEST----------------");
+        logger.info("-------------END OF TEST----------------");
         System.out.println();
     }
 
 
     public static void printValueOfKeyFromResponse(Response response, String key) {
         Object value = response.path(key);
-        System.out.println("Value of " + key + " key fetched from response body = " + value);
+        logger.info("Value of " + key + " key fetched from response body = " + value);
     }
 
     public static void checkValueFromResponse(Response response, String key, Object expectedValue) {
@@ -88,7 +95,7 @@ public class RestUtil {
 
     public static int getKeysCountInResponse(Response response) {
         Map<String, ?> numberOfKeys = response.jsonPath().get("");
-        System.out.println("Total number of keys in response body = " + numberOfKeys.size());
+        logger.info("Total number of keys in response body = " + numberOfKeys.size());
         return numberOfKeys.size();
     }
 
@@ -102,13 +109,13 @@ public class RestUtil {
             // convert JSON string to Map
             map = mapper.readValue(json, new TypeReference<Map<String, String>>() {
             });
-            System.out.println("Name of all the keys from the map ->");
+            logger.info("Name of all the keys from the map ->");
             Set<String> keys = map.keySet();
             for (String key : keys) {
                 listOfKeys.add(key);
             }
         } catch (IOException e) {
-            System.out.println("Exception is being handled here");
+            logger.info("Exception is being handled here");
             e.printStackTrace();
         }
         return listOfKeys;
@@ -116,7 +123,7 @@ public class RestUtil {
 
 
     public static Properties loadPropertyFile() throws Exception {
-        FileInputStream fileInput = new FileInputStream(new File("/Users/navpreetsingh/IdeaProjects/RestApiAutomation/src/test/java/Utility/Data.properties"));
+        FileInputStream fileInput = new FileInputStream(new File("/Users/nasingh/IdeaProjects/RestApiAutomation/src/test/java/Config/Data.properties"));
         Properties prop = new Properties();
         prop.load(fileInput);
         return prop;
@@ -144,7 +151,7 @@ public class RestUtil {
 
     public static String fetchResponseHeaderValue(Response response, String header) {
         String headerValue = response.getHeader(header);
-        System.out.println("Value of the header " + header + " is = " + headerValue);
+        logger.info("Value of the header " + header + " is = " + headerValue);
         return headerValue;
     }
 
@@ -161,19 +168,21 @@ public class RestUtil {
 
     public static void fetchCookieDetails(Response response, String cookie) {
         Cookie data = response.getDetailedCookie(cookie);
-        System.out.println(cookie + " has expiry date ? = " + data.hasExpiryDate());
-        System.out.println(cookie + " expiry date = " + data.getExpiryDate());
-        System.out.println(cookie + " value = " + data.getValue());
+        logger.info(cookie + " has expiry date ? = " + data.hasExpiryDate());
+        logger.info(cookie + " expiry date = " + data.getExpiryDate());
+        logger.info(cookie + " value = " + data.getValue());
     }
 
-    public Response getRequestTemplate(Response response, String endPoint) {
-        response = given()
+    public Response getRequestTemplate(String endPoint) {
+        Options options = Options.builder().targetPlatform(Platform.UNIX).printMultiliner().useLongForm().build();
+        RestAssuredConfig curlConfig = CurlLoggingRestAssuredConfigFactory.createConfig(options);
+        Response response = given()
                 .log().all()
+                .config(curlConfig)
                 .when()
                 .get(endPoint);
         printResponseBody(response);
         return response;
-
     }
 
 }

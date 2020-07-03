@@ -1,7 +1,8 @@
-package ZipCodeApi_GetRequestTests;
+package Tests.ZipCodeApi_GetRequestTests;
 
-import Utility.RestUtil;
+import Base.RestUtil;
 import io.restassured.response.Response;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -14,6 +15,8 @@ import static org.hamcrest.Matchers.hasSize;
  */
 
 public class India_110058 extends RestUtil {
+
+    static Logger logger = Logger.getLogger(India_110058.class);
 
     private static Response response;
     String endPoint = getValueFromPropertyFile("ZIPPO_INDIA_58_ENDPOINT");
@@ -30,7 +33,7 @@ public class India_110058 extends RestUtil {
 
     @Test(priority = 0)
     public void getApiResponse() {
-      response =  getRequestTemplate(response,endPoint);
+      response =  getRequestTemplate(endPoint);
     }
 
     @Test(priority = 1)
@@ -56,8 +59,9 @@ public class India_110058 extends RestUtil {
 
     @Test(priority = 5)
     public void validateJsonSchema() {
-        System.out.println("Performing json schema validation");
+        logger.info("Performing json schema validation");
         response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_INDIA_58_JSON_SCHEMA_PATH")));
+        logger.info("json schema validation completed");
     }
 
     @Test(priority = 6)
@@ -86,7 +90,7 @@ public class India_110058 extends RestUtil {
 
     @AfterTest
     public void afterTests() {
-        System.out.println("All tests have been run");
+        logger.info("All tests have been run");
         resetBaseURI();
     }
 

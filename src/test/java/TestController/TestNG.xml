@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG With Retry Listener" parallel="none">
+    <test name="Test cases" group-by-instances="true" preserve-order="true">
+        <classes>
+            <class name="Tests.ZipCodeApi_GetRequestTests.India_110058"/>
+            <class name="Tests.ZipCodeApi_GetRequestTests.US_90210"/>
+            <class name="Tests.ZipCodeApi_GetRequestTests.MultipleLocationsViaParametrisation"/>
+            <class name="Tests.ZipCodeApi_PostRequestTests.Mocked_India_110064"/>
+            <class name="Tests.ZipCodeApi_PostRequestTests.Mocked_India_110018_Deserialize_Response"/>
+        </classes>
+    </test>
+</suite>

@@ -32,6 +32,6 @@ Navpreet Singh
 # Add test cases :
 Remember below mentioned points before creating new api tests -- 
 a) Adding GET method tests --                                                           
-To add tests, go to RestApiAutomation/src/test/java/ZipCodeApi_GetRequestTests folder and create a new file             
+To add tests, go to RestApiAutomation/src/test/java/Tests.ZipCodeApi_GetRequestTests folder and create a new file             
 b) Adding POST method tests --                                                              
-To add tests, go to RestApiAutomation/src/test/java/ZipCodeApi_PostRequestTests folder and create a new file
+To add tests, go to RestApiAutomation/src/test/java/Tests.ZipCodeApi_PostRequestTests folder and create a new file

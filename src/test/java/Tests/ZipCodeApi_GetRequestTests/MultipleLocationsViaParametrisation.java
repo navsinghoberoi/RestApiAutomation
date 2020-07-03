@@ -1,6 +1,6 @@
-package ZipCodeApi_GetRequestTests;
+package Tests.ZipCodeApi_GetRequestTests;
 
-import Utility.RestUtil;
+import Base.RestUtil;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
