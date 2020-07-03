@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.equalTo;
 
@@ -33,7 +34,7 @@ public class US_90210 extends RestUtil {
 
     @Test(priority = 9)
     public void getApiResponse() {
-        response = getRequestTemplate(response, endPoint);
+        response = getRequestTemplate(endPoint);
     }
 
     @Test(priority = 10)

@@ -2,7 +2,11 @@ package Base;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.dzieciou.testing.curl.CurlLoggingRestAssuredConfigFactory;
+import com.github.dzieciou.testing.curl.Options;
+import com.github.dzieciou.testing.curl.Platform;
 import io.restassured.RestAssured;
+import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.Cookie;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
@@ -169,14 +173,16 @@ public class RestUtil {
         logger.info(cookie + " value = " + data.getValue());
     }
 
-    public Response getRequestTemplate(Response response, String endPoint) {
-        response = given()
+    public Response getRequestTemplate(String endPoint) {
+        Options options = Options.builder().targetPlatform(Platform.UNIX).printMultiliner().useLongForm().build();
+        RestAssuredConfig curlConfig = CurlLoggingRestAssuredConfigFactory.createConfig(options);
+        Response response = given()
                 .log().all()
+                .config(curlConfig)
                 .when()
                 .get(endPoint);
         printResponseBody(response);
         return response;
-
     }
 
 }

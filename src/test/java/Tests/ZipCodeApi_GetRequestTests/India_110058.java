@@ -33,7 +33,7 @@ public class India_110058 extends RestUtil {
 
     @Test(priority = 0)
     public void getApiResponse() {
-      response =  getRequestTemplate(response,endPoint);
+      response =  getRequestTemplate(endPoint);
     }
 
     @Test(priority = 1)
@@ -61,6 +61,7 @@ public class India_110058 extends RestUtil {
     public void validateJsonSchema() {
         logger.info("Performing json schema validation");
         response.then().body(matchesJsonSchemaInClasspath(getValueFromPropertyFile("ZIPPO_INDIA_58_JSON_SCHEMA_PATH")));
+        logger.info("json schema validation completed");
     }
 
     @Test(priority = 6)
